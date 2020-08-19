@@ -1,15 +1,360 @@
----
-title: Le Wagon - Middleman
----
+<!DOCTYPE html>
+<html lang="en">
 
-<div id="home">
-  <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
-  </div>
-</div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap HTML5 Template</title>
+  <meta name="description" content="Bootstrap Theme by j0h4nf">
+  <meta name="keywords" content="">
+
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Candal">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.scss">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.scss">
+  <link rel="stylesheet" type="text/css" href="css/style.scss">
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+  <!--banner-->
+  <section id="banner" class="banner">
+    <div class="bg-color">
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="col-md-12">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#"><img src="images/logo.png" class="img-responsive" style="width: 80px; margin-top: -21px;"></a>
+            </div>
+            <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+              <ul class="nav navbar-nav">
+                <li class="active"><a class="menu-text-color" href="#banner">Accueil</a></li>
+                <li class=""><a class="menu-text-color" href="#service">Le mot du grand-frère</a></li>
+                <li class=""><a class="menu-text-color" href="#about">A quoi ça sert</a></li>
+                <li class=""><a class="menu-text-color" href="#booking">Liste de naissance</a></li>
+                <li class=""><a class="menu-text-color" href="#testimonial">Témoignages</a></li>
+                <li class=""><a class="menu-text-color" href="#contact">Contactez-nous</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="row">
+          <div class="banner-info">
+            <div class="banner-logo text-center">
+              <img src="images/babyyy.png" class="img-responsive">
+            </div>
+            <div class="banner-text text-center">
+              <h1>TROUVEZMONPRENOM.COM</h1>
+              <p>Un site pour vous donner matière à discuter du prénom de baby N°2 et partager le bonheur de la naissance avec nos proches !</p>
+              <a href="#" target="_blank" class="btn btn-appoint">FAIRE UN CADEAU</a>
+            </div>
+            <div class="overlay-detail text-center">
+              <a href="#service"><i class="fa fa-angle-down"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ banner-->
+  <!--service-->
+  <section id="service" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <h2 class="ser-title">Le mot du grand-frère</h2>
+          <hr class="botm-line">
+          <p>Notre expert du mois "Gustave Febvre de Ballon" partage avec vous ses convictions sur le choix du prénom de sa future petite soeur et ses conseils layettes</p>
+          <iframe width="560" height="450" src="https://www.youtube.com/embed/6vfqJXzPTjg?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="col-md-3 col-sm-3">
+          <div class="service-info">
+            <div class="icon">
+              <i class="fa fa-eye"></i>
+            </div>
+            <div class="icon-info">
+              <h4>Conseil Pampers®</h4>
+              <p>La promesse Pampers® incarne notre engagement en faveur d’un monde meilleur pour les bébés. Un monde dans lequel ils puissent grandir heureux et en bonne santé.</p>
+            </div>
+          </div>
+          <div class="service-info">
+            <div class="icon">
+              <i class="fa fa-check-circle"></i>
+            </div>
+            <div class="icon-info">
+              <h4>Contrôle de la myopie</h4>
+              <p>Les lentilles Orphé freinent l’évolution de la myopie chez les enfants, les adolescents et les jeunes adultes.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-3">
+          <div class="service-info">
+            <div class="icon">
+              <i class="fa fa-user-md"></i>
+            </div>
+            <div class="icon-info">
+              <h4>Protection des yeux</h4>
+              <p>Vos yeux conservent pendant la nuit une oxygénation et un confort optimal grâce au matériau à haute perméabilité des lentilles Orphé.</p>
+            </div>
+          </div>
+          <div class="service-info">
+            <div class="icon">
+              <i class="fa fa-medkit"></i>
+            </div>
+            <div class="icon-info">
+              <h4>Simplicité d'entretien</h4>
+              <p>Notre gamme de produits d’entretien, sans conservateurs, permet d’entretenir efficacement vos lentilles, en toute protection pour vos yeux.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ service-->
+  <!--cta-->
+  <section id="cta-1" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="schedule-tab">
+          <div class="col-md-4 col-sm-4">
+            <div class="mt-boxy-color"></div>
+            <div class="medi-info">
+              <h3>Votez pour trouver mon prénom</h3>
+              <p>Cliquez sur le bouton ci-dessous pour accéder au sondage. Mais de toutes façons ne vous faîtes pas d'illusions... Vous ne trouverez pas !</p>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfdtSCVmpeK_3Ut-gS-hi-qBSmcDQjdM4jDLug5OnG4_E-LLg/viewform?usp=sf_link" class="medi-info-btn">LIRE PLUS</a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <div class="medi-info">
+              <h3>L’avis des experts "de l'internet"</h3>
+              <p>Jessica, Odeline, Mélusine, Poupette ? Cliquer ici pour découvrir les prénoms proposés par les experts "prénoms" de l'internet.</p>
+              <a href="https://www.dailymotion.com/video/x4ccx8h" class="medi-info-btn">LIRE PLUS</a>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4">
+            <div class="medi-info">
+              <h3>Les conseils de ceux qui savent mieux</h3>
+              <p>Pour lire l’article de "ceux qui savent mieux que les autres" merci de suivre le lien ci-dessous et rendez-vous dans 10 ans.</p>
+              <a href="http://www.optique-et-ophtalmologie.fr/quest-ce-que-lorthokeratologie/" class="medi-info-btn">LIRE PLUS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--cta-->
+  <!--about-->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-sm-4 col-xs-12">
+          <div class="section-title">
+            <h2 class="head-title lg-line">A quoi sert vraiment<br>ce magnifique site internet</h2>
+            <hr class="botm-line">
+            <p class="sec-para">A pas grand-chose vraiment, papa voulait juste se faire plaisir avant l'arrivée de baby N°2 et ainsi passer du temps à faire autre chose qu'une deuxième couvade.</p>
+            <!-- <a href="" style="color: #0cb8b6; padding-top:10px;">En savoir plus...</a> -->
+            <img class="circular-img" src="images/couvade.jpg">
+          </div>
+        </div>
+        <div class="col-md-9 col-sm-8 col-xs-12">
+          <div style="visibility: visible;" class="col-md-12 more-features-box">
+            <div class="more-features-box-text">
+              <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
+              <div class="more-features-box-text-description">
+                <h3>Comment fonctionne ce site "de l'internet"?</h3>
+                <p>C'est très simple c'est tout simplement un moyen original et pratique pour partager la joie d'être parent et toute « l'actualité » de bébé avec la famille et les amis : première fois qu'il se tient assis, première dent, premiers pas. Les visiteurs peuvent commenter les billets du blog de bébé, les photos et vidéos. <br>
+                Un site pour faire vivre vos émotions à notre famille et partagez avec vous les moments forts de la maternité ainsi que l'évolution de Bébé à travers des textes, photos et vidéos et permettre aux proches éloignés de voir grandir notre enfant.</p>
+              </div>
+            </div>
+            <div class="more-features-box-text">
+              <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
+              <div class="more-features-box-text-description">
+                <h3>A qui s'adresse ce site "de l'internet" ?</h3>
+                <p>C'est très simple c'est tout simplement un moyen original et pratique pour nous de partager la joie d'être parent à nouveau et toute « l'actualité » de bébé N°2 avec la famille et les amis : première fois qu'elle se tient assise, sa première dent, ses premiers pas. Les visiteurs pourront même nous envoyer ou commenter les billets du blog de bébé, les photos et vidéos. </p>
+              </div>
+            </div>
+            <div class="more-features-box-text">
+              <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
+              <div class="more-features-box-text-description">
+                <h3>Focus sur la liste de naissance !</h3>
+                <p>Fini le casse-tête du cadeau de naissance. Que vous soyez parents ou proches, simplifiez-vous la vie ! Nous vous proposons nn service 100 % sérénité grâce à un large choix de produits "que nous avons choisi" pour en finir avec les cadeaux de tata et tonton qui ne servent à rien.x<br>
+                Sans danger et sans douleur, un site avec une grande et belle garantie : celle de répondre à nos envies et nos besoins.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ about-->
+
+  <!--booking-->
+  <section id="booking" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="banner-booking">
+          <div class="banner-text text-center">
+            <h1 class="white-booking">POUR COMMANDER UN CADEAU SUR LA LISTE DE NAISSANCE <!-- <img src="images/logo.png" class="img-responsive img-booking"> DE BABY N°2. --></h1>
+            <a href="#" target="_blank" class="btn btn-appoint">FAIRE UN CADEAU</a>
+          </div>
+          <div class="overlay-detail text-center">
+            <a href="#service"><i class="fa fa-angle-down"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!--/ booking-->
+
+
+  <!--testimonial-->
+  <section id="testimonial" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="ser-title">Témoignages</h2>
+          <hr class="botm-line">
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <div class="testi-details">
+            <!-- Paragraph -->
+            <p>Gustave est un mec super bien. On joue souvent ensemble au square, au parc, à la maison. On se tire des barres de rire. Je suis sûr qu'il sera un grand frère à a hauteur. On y pense pas forcément mais le rôle du grand frère est un rôle clé en ce qui concerne le développement du deuxième enfant. Gustave a les épaules, tout se passera comme sur des roulettes.</a></p>
+          </div>
+          <div class="testi-info">
+            <!-- User Image -->
+            <a href="#"><img src="images/babyavatar.png" alt="" class="img-responsive"></a>
+            <!-- User Name -->
+            <h3>Basile<span>C.</span></h3>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <div class="testi-details">
+            <!-- Paragraph -->
+            <p>Je connais peu Gustave mais à chaque fois que l'on se voit c'est l'éclate, on se marre bien. Il est entouré de petits mecs donc l'arrivée de baby N°2 va lui faire du bien et certainement me faire du bien car avec Capucine et Ambre nous sommes les trois seules filles du lot et comme d'habitude il n'y en a que pour eux... Espérons que l'arrivée de cette petite soeur les calment tous...</p>
+          </div>
+          <div class="testi-info">
+            <!-- User Image -->
+            <a href="#"><img src="images/babyavatar.png" alt="" class="img-responsive"></a>
+            <!-- User Name -->
+            <h3>Lou<span>G.</span></h3>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <div class="testi-details">
+            <!-- Paragraph -->
+            <p>Avec Gustave on ne s'est pas beaucoup vu et c'est bien dommage. Je suis passé 1 ou 2 fois chez lui avec mes parents pour l'apéro. Qu'est ce que je peux dire ? C'est un mec cool et il va bien s'occuper de sa petite soeur c'est sûr. Je ne dis pas qu'au passage elle ne se prendra pas 1 ou 2 cubes dans la tronche "sur un moment d'égarement" mais bon, hein... Ce sont les risques du métiers comme on dit.</p>
+          </div>
+          <div class="testi-info">
+            <!-- User Image -->
+            <a href="#"><img src="images/babyavatar.png" alt="" class="img-responsive"></a>
+            <!-- User Name -->
+            <h3>Ernest<span>G.</span></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ testimonial-->
+  <!--cta 2-->
+  <section id="cta-2" class="section-padding">
+    <div class="container">
+      <div class=" row">
+        <div class="col-md-2"></div>
+        <div class="text-right-md col-md-4 col-sm-4">
+          <h2 class="section-title white lg-line">Les "chic-ouf" :<br> qui sont ces nouveaux<br> grands-parents ?</h2>
+        </div>
+        <div class="col-md-4 col-sm-5">
+            <p>Voilà nos quelques excuses - plus ou moins bidon certes - pour ne pas garder notre future petite fille :</p>
+            <p>1- Désolé, mais on a chorale. Oui, c'est nouveau ! C'est notre psy  qui nous a conseillé de faire des activités à deux pour arrêter de déprimer/de nous engueuler (au choix).</p>
+            <p>2- Ah mince, je crois bien que j'ai la grippe ou la gastro (bref, un truc bien contagieux).</p>
+            <p>3- Ça tombe mal, ton grand-père vient de m'annoncer qu'il me quittait pour le voisin.</p>
+            <p>4- Impossible, j'ai poney...</p>
+          <p class="text-right text-primary"><i>— Les Grands-Parents</i></p>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+    </div>
+  </section>
+  <!--cta-->
+  <!--contact-->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="ser-title">Contactez-nous</h2>
+          <hr class="botm-line">
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <h3>Contact</h3>
+          <div class="space"></div>
+          <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>25 Rue Albert Marquet<br>78612 Villennes sur Seine</p>
+          <div class="space"></div>
+          <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>info@popojojo.com</p>
+          <div class="space"></div>
+          <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>01 XX XX XX XX</p>
+        </div>
+        <div class="col-md-8 col-sm-8 marb20">
+          <div class="contact-info">
+            <h3 class="cnt-ttl">Pour nous laisser un message ?</h3>
+            <div class="space"></div>
+            <div id="sendmessage">Votre message a été envoyé. Merci!</div>
+            <div id="errormessage"></div>
+            <form action="" method="post" role="form" class="contactForm">
+              <div class="form-group">
+                <input type="text" name="name" class="form-control br-radius-zero" id="name" placeholder="Votre Nom" data-rule="minlen:1" data-msg="Nombre de caractères insuffisant" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control br-radius-zero" name="email" id="email" placeholder="Votre Email" data-rule="email" data-msg="Merci de rentrer un email valide" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control br-radius-zero" name="subject" id="subject" placeholder="Sujet" data-rule="minlen:4" data-msg="Nombre de caractères insuffisant" />
+                <div class="validation"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control br-radius-zero" name="message" rows="5" data-rule="required" data-msg="Merci d'écrire un message" placeholder="Votre Message"></textarea>
+                <div class="validation"></div>
+              </div>
+
+              <div class="form-action">
+                <button type="submit" class="btn btn-form">Envoyer</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ contact-->
+  <!--footer-->
+  <footer id="footer">
+    <div class="footer-line">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            © Copyright j0h4nf. All Rights Reserved
+            <div class="credits">
+              Designed by <a href="https://j0h4nf.com/">j0h4nf.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--/ footer-->
+
+  <script src="javascript/jquery.min.js"></script>
+  <script src="javascript/jquery.easing.min.js"></script>
+  <script src="javascript/bootstrap.min.js"></script>
+  <script src="javascript/custom.js"></script>
+  <script src="javascript/contactform.js"></script>
+
+</body>
+
+</html>

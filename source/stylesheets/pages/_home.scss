@@ -595,3 +595,88 @@ footer
     font-size: 24px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+/***************************************
+card
+***************************************/
+
+  .card-tripb {
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+.card-tripb > img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-tripb h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-tripb p {
+  font-size: 14px;
+  opacity: .7;
+  margin-top: 15px;
+  margin-bottom: 22px;
+}
+
+.titrenaiss {
+  margin-left: 40px;
+  margin-bottom: -20px;
+  padding-top: 10px;
+}
+
+.card-trip-infosb {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+
+}
+
+.card-trip-infos .card-trip-user {
+  position: absolute;
+  right: 16px;
+  top: -20px;
+  width: 40px;
+}
+
+
+.btn-flat {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: #FFD400;
+  transition: background 0.3s ease;
+}
+
+.btn-flat:hover {
+  background: #FFD400;
+  color: white;
+  float: right;
+}
+
+
+
